@@ -3,10 +3,14 @@
 ## Quick Installation Guide
 
 ```
+//step 1
 $ git clone git://github.com/thinkphp/sinatra-basic.git
+$ cd sinatra-basic
 $ gem install bundler
 $ bundle install
-$ rackup
+$ rackup //Go to http://localhost:9292/ and test it
+
+//step 2
 $ heroku create -s cedar myApp
 $ git push heroku master
 $ heroku ps
