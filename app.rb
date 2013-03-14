@@ -1,13 +1,15 @@
-require 'sinatra'
+class MyApp < Sinatra::Base
 
-get '/' do
+  get '/' do
  
-     @title = "Index" 
-     erb:index
+      @title = "Index" 
+      erb:index
+  end
+  get '/about' do
+
+       @title = "About Me" 
+       erb:about
+  end
+
 end
 
-get '/about' do
-
-     @title = "About Me" 
-     erb:about
-end
