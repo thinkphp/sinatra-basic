@@ -1,6 +1,19 @@
 # Getting Started with Sinatra and Heroku
 
-## Create the site structure
+## Quick Installation Guide
+
+```
+$ git clone git://github.com/thinkphp/sinatra-basic.git
+$ gem install bundler
+$ bundle install
+$ rackup
+$ heroku create -s cedar myApp
+$ git push heroku master
+$ heroku ps
+$ heroku open
+```
+
+## Create the site structure manually
 
 ```
    myApp/
@@ -78,7 +91,7 @@ source "https://rubygems.org"
 gem 'sinatra'
 ```
 
-## config.ru
+## config.ru - configure Sinatra to run on Rack
 
 ```
 require 'rubygems'
