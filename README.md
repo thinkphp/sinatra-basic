@@ -26,7 +26,7 @@ $ touch Gemfile
 $ touch config.ru   
 ```
 
-## Let's create a layout and add
+## Let's create a layout.erb and add
 
 ```
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ $ touch config.ru
 </html>
 ```
 
-## Let's create an index and add
+## Let's create an index.erb and add
 
 ```
 <h1>Sinatra</h1>
