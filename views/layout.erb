@@ -2,11 +2,12 @@
 <html>
 <head>
 <title><%= @title %></title>
+<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
 <header class="site-header">
-<a href="/" title="My name up in lights!" class="logo">Sinatra and Bundler<nav class="site-nav">
+<a href="/" title="My name up in lights!" class="logo"><img src="http://www.sinatrarb.com/images/logo.png">Sinatra<nav class="site-nav">
 <ul class="nav">
 <li class="current"><a href="/" title="Home">Home</a></li>
 <li><a href="/about" title="Read a little about Express">About</a>
@@ -15,9 +16,6 @@
 <li><a href="/contact" title="Send me a message or find me elsewhere">Contact</a></li>
 </ul></nav></a></header>
 
-   <h1>Sinatra</h1>
-
-   <p>Welcome to Sinatra</p>
-
    <body><%= yield %><p>Created by <a href="http://thinkphp.ro">Adrian Statescu</a></p></body>
+
 </html>

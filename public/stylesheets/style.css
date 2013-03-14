@@ -1,9 +1,9 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 15px "Lora", Helvetica, Arial, sans-serif;
 }
 a {
-  color: #00b7ff;
+  color: #000;
 }
 .logo {
   font-size: 4.5em;
@@ -24,17 +24,20 @@ h1 line-height: 1.5 {
 }
 ul li {
   list-style: none;
+  display: inline
 }
 .site-nav a {
   color: #a0a0a0;
+  font-size: 24px;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
   transition: color 0.2s ease;
+  margin-left: 10px;
 }
 .nav a {
-  display: inline-block;
+  display: inline-block;  
 }
 site-header .current a {
   color: #484848;
