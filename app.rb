@@ -1,7 +1,7 @@
 class MyApp < Sinatra::Base
   get '/' do
  
-      @title = "Index" 
+      @title = "Home" 
       erb:index
   end
   get '/about' do
